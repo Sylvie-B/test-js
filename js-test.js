@@ -4,18 +4,15 @@ alert("Bonjour, " + name);
 
 let number = prompt("Entre un chiffre de 1 à 10");
 
-if(number == 5) {
-    alert("Bravo ! " + name + ", tu as gagné !");
+if(number > 5) {
+    alert("essai avec un chiffre plus petit");
 }
 
 else if(number < 5) {
-    alert("le chiffre est plus grand")
+    alert("essai avec un chiffre plus grand")
 }
 
-else  if( number > 5) {
-    alert("le chiffre est plus petit");
+else{
+    alert("Bravo, " + name + ", tu as gagné !")
 }
-
-
-
 
